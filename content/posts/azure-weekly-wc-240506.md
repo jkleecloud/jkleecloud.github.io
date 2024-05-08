@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 06/05/2024'
 date = 2024-05-07T11:54:50+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly']
 tags = ['API Center', 'Virtual Network Manager', 'Defender for Cloud', 'DB for PostgreSQL', 'Resource Graph', 'Change Analysis', 'Virtual Networks', 'Cloud Services (classic)', 'Virtual Network Encryption', 'Private Link', 'Azure Storage Actions', 'Azure Storage']
 +++
@@ -10,6 +10,17 @@ Summary of Azure snippets for the week commencing 6th May 2024, grouped by Azure
 
 GA = Generally Available  
 Public/Private Preview = as stated :-)
+
+Azure services with highlighted updates this week:
+
+- [API Center](#api-center)
+- [Azure DB for PostgreSQL](#azure-db-for-postgresql)
+- [Azure Resource Graph](#azure-resource-graph)
+- [Azure Storage](#azure-storage)
+- [Cloud Services (classic)](#cloud-services-classic)
+- [Defender for Cloud](#defender-for-cloud)
+- [Virtual Network Manager](#virtual-network-manager)
+- [Virtual Networks](#virtual-networks)
 
 ## API Center
 
@@ -21,7 +32,7 @@ Public/Private Preview = as stated :-)
 - [Azure Database for PostgreSQL - Flexible Server enhanced disaster recovery features (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-database-for-postgresql-flexible-server-enhanced-disaster-recovery-features/) : Enhancements to the read replicas feature - Virtual Endpoints and promote a read replica to primary server
     - [Virtual endpoints for read replicas](https://learn.microsoft.com/en-gb/azure/postgresql/flexible-server/concepts-read-replicas-virtual-endpoints)
     - [Promote to primary server](https://learn.microsoft.com/en-gb/azure/postgresql/flexible-server/concepts-read-replicas-promote)
-- [Azure Database for PostgreSQL - Flexible Server networking with Azure Private Link](https://azure.microsoft.com/en-gb/updates/general-availability-azure-database-for-postgresql-flexible-server-networking-with-azure-private-link/) : Private Link joins VNet integration as a supported private VNet access method for PostgreSQL Flexible Server
+- [Azure Database for PostgreSQL - Flexible Server networking with Azure Private Link (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-database-for-postgresql-flexible-server-networking-with-azure-private-link/) : Private Link joins VNet integration as a supported private VNet access method for PostgreSQL Flexible Server
     - [Networking with Private Endpoint docs](https://learn.microsoft.com/en-gb/azure/postgresql/flexible-server/concepts-networking-private-link)
 
 ## Azure Resource Graph
@@ -32,7 +43,7 @@ Public/Private Preview = as stated :-)
 
 ## Azure Storage
 - [Azure Storage Actions (public preview)](https://azure.microsoft.com/en-gb/updates/public-preview-azure-storage-actions-is-now-available-in-14-more-regions/) : Serverless and no-code framework for managing storage operations. Currently supports operations on Blobs in Storage Accounts, and isn't available in UK regions yet.
-- [SLA on Blob Storage Cold Tier (GA)](https://azure.microsoft.com/en-gb/updates/generally-available-service-level-agreement-on-azure-blob-storage-cold-tier/) : Cold tier Blob storage now backed with a Microsoft uptime and connectivity SLA
+- [SLA on Blob Storage Cold Tier (GA)](https://azure.microsoft.com/en-gb/updates/generally-available-service-level-agreement-on-azure-blob-storage-cold-tier/) : Cold tier Blob storage now backed with a Microsoft uptime and connectivity SLA.
 
 ## Cloud Services (classic)
 
@@ -41,7 +52,7 @@ Public/Private Preview = as stated :-)
 
 ## Defender for Cloud
 
-- [Azure Defender for Microsoft Azure Database for PostgreSQL - Flexible Server (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-defender-for-microsoft-azure-database-for-postgresql-flexible-server/) : Part of the [Defender for open-source relational databases plan](https://learn.microsoft.com/en-gb/azure/defender-for-cloud/defender-for-databases-introduction) which includes MySQL and MariaDB as well. (I have no idea why they refer to it as Azure Defender (the old name for Microsoft Defender for Cloud) here!)
+- [Azure Defender for Microsoft Azure Database for PostgreSQL - Flexible Server (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-defender-for-microsoft-azure-database-for-postgresql-flexible-server/) : Part of the [Defender for open-source relational databases plan](https://learn.microsoft.com/en-gb/azure/defender-for-cloud/defender-for-databases-introduction) which includes MySQL and MariaDB as well. I have no idea why they refer to it as Azure Defender (the old name for Microsoft Defender for Cloud) here!
     - [Azure DB for PostgreSQL docs - Defender for Cloud support](https://learn.microsoft.com/en-gb/azure/postgresql/flexible-server/concepts-security#microsoft-defender-for-cloud-support)
 
 ## Virtual Network Manager
