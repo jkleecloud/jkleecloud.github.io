@@ -1,0 +1,4 @@
+baseURL = 'https://jkleecloud.github.io/'
+languageCode = 'en-gb'
+title = 'Azure Snippets, Knowledge and Tips'
+theme = 'ananke'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtual Network Manager on Azure Snippets, Knowledge and Tips</title>
+    <link>http://localhost:1313/tags/virtual-network-manager/</link>
+    <description>Recent content in Virtual Network Manager on Azure Snippets, Knowledge and Tips</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 07 May 2024 11:54:50 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/virtual-network-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Snippets w/c 06/05/2024</title>
+      <link>http://localhost:1313/posts/azure-weekly-wc-240506/</link>
+      <pubDate>Tue, 07 May 2024 11:54:50 +0100</pubDate>
+      <guid>http://localhost:1313/posts/azure-weekly-wc-240506/</guid>
+      <description>Azure Snippets w/c 06/05/2024 Summary of Azure snippets for the week commencing 6th May 2024, grouped by Azure service.&#xA;API Center API Center (GA) : Azure API Center is now generally available, providing a centralized solution to manage the challenges of API sprawl. Azure API Center offers a unified inventory for seamless discovery, consumption, and governance of APIs, regardless of their type, lifecycle stage, or deployment location Azure API Center GA blog post Azure Resource Graph Azure Change Analysis - New Portal experience (Public Preview) : See all resoure changes across all tenants and subscriptions in the Azure Portal.</description>
+    </item>
+  </channel>
+</rss>
