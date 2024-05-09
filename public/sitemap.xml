@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/api-center/</loc>
+    <loc>https://jkleecloud.github.io/tags/api-center/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/azure-weekly-wc-240506/</loc>
+    <loc>https://jkleecloud.github.io/posts/azure-weekly-wc-240506/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jkleecloud.github.io/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/azure-storage/</loc>
+    <loc>https://jkleecloud.github.io/tags/azure-storage/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/azure-storage-actions/</loc>
+    <loc>https://jkleecloud.github.io/tags/azure-storage-actions/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/azure-weekly/</loc>
+    <loc>https://jkleecloud.github.io/categories/azure-weekly/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jkleecloud.github.io/categories/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/change-analysis/</loc>
+    <loc>https://jkleecloud.github.io/tags/change-analysis/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cloud-services-classic/</loc>
+    <loc>https://jkleecloud.github.io/tags/cloud-services-classic/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/db-for-postgresql/</loc>
+    <loc>https://jkleecloud.github.io/tags/db-for-postgresql/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/defender-for-cloud/</loc>
+    <loc>https://jkleecloud.github.io/tags/defender-for-cloud/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://jkleecloud.github.io/posts/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/private-link/</loc>
+    <loc>https://jkleecloud.github.io/tags/private-link/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/resource-graph/</loc>
+    <loc>https://jkleecloud.github.io/tags/resource-graph/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jkleecloud.github.io/tags/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtual-network-encryption/</loc>
+    <loc>https://jkleecloud.github.io/tags/virtual-network-encryption/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtual-network-manager/</loc>
+    <loc>https://jkleecloud.github.io/tags/virtual-network-manager/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtual-networks/</loc>
+    <loc>https://jkleecloud.github.io/tags/virtual-networks/</loc>
     <lastmod>2024-05-07T11:54:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>https://jkleecloud.github.io/posts/hello-world/</loc>
     <lastmod>2024-05-07T11:26:57+01:00</lastmod>
   </url>
 </urlset>
