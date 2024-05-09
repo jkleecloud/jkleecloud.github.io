@@ -15,6 +15,7 @@ Azure services with highlighted updates this week:
 
 - [API Center](#api-center)
 - [Azure DB for PostgreSQL](#azure-db-for-postgresql)
+- [Azure Kubernetes Service](#azure-kubernetes-service)
 - [Azure Resource Graph](#azure-resource-graph)
 - [Azure Storage](#azure-storage)
 - [Cloud Services (classic)](#cloud-services-classic)
@@ -34,6 +35,11 @@ Azure services with highlighted updates this week:
     - [Promote to primary server](https://learn.microsoft.com/en-gb/azure/postgresql/flexible-server/concepts-read-replicas-promote)
 - [Azure Database for PostgreSQL - Flexible Server networking with Azure Private Link (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-database-for-postgresql-flexible-server-networking-with-azure-private-link/) : Private Link joins VNet integration as a supported private VNet access method for PostgreSQL Flexible Server
     - [Networking with Private Endpoint docs](https://learn.microsoft.com/en-gb/azure/postgresql/flexible-server/concepts-networking-private-link)
+
+## Azure Kubernetes Service
+
+- [Initialization taints (Public Preview)](https://azure.microsoft.com/en-gb/updates/public-preview-initialization-taints-in-aks/) : Temporary taints on AKS nodes, for example if more time is needed to set up nodes
+    - [Node initialisation taints docs](https://learn.microsoft.com/en-gb/azure/aks/use-node-taints#use-node-initialization-taints-preview)
 
 ## Azure Resource Graph
 
