@@ -3,7 +3,7 @@ title = 'Azure Snippets w/c 06/05/2024'
 date = 2024-05-07T11:54:50+01:00
 draft = false
 categories = ['Azure Weekly']
-tags = ['API Center', 'Virtual Network Manager', 'Defender for Cloud', 'DB for PostgreSQL', 'Resource Graph', 'Change Analysis', 'Virtual Networks', 'Cloud Services (classic)', 'Virtual Network Encryption', 'Private Link', 'Azure Storage Actions', 'Azure Storage']
+tags = ['API Center', 'Virtual Network Manager', 'Defender for Cloud', 'DB for PostgreSQL', 'Resource Graph', 'Change Analysis', 'Virtual Networks', 'Cloud Services (classic)', 'Virtual Network Encryption', 'Private Link', 'Azure Storage Actions', 'Azure Storage', 'AKS']
 +++
 
 Summary of Azure snippets for the week commencing 6th May 2024, grouped by Azure service.
