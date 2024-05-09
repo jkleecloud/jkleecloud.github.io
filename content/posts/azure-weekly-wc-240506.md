@@ -25,7 +25,7 @@ Azure services with highlighted updates this week:
 
 ## API Center
 
-- [API Center (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-api-center/) : A centralised solution for delivery, consumption and governance of APIs. Provides (among other features): cataloguing and inventory of APIs (including from APIM), governance and design rule enforcement, API Analysis for consistency and compliance, and a Visual Studio Code extension for an enhanced developer experience.
+- [API Center (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-api-center/) : A centralised solution for delivery, consumption and governance of APIs. Provides (among other features): cataloguing and inventory of APIs (including from APIM), governance and design rule enforcement, API Analysis for consistency and compliance, and a Visual Studio Code extension for an enhanced developer experience. More full featured than I thought - is this the future of the APIM developer portal?
     - [Azure API Center GA blog post](https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-center-your-comprehensive-api-inventory-and-governance/ba-p/4125146)
 
 ## Azure DB for PostgreSQL
