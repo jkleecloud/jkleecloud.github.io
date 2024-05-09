@@ -2,94 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Azure Snippets, Knowledge and Tips</title>
-    <link>https://jkleecloud.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Azure Snippets, Knowledge and Tips</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 07 May 2024 11:54:50 +0100</lastBuildDate>
-    <atom:link href="https://jkleecloud.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AKS</title>
+      <link>http://localhost:1313/tags/aks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aks/</guid>
+      <description></description>
+    </item>
     <item>
       <title>API Center</title>
-      <link>https://jkleecloud.github.io/tags/api-center/</link>
+      <link>http://localhost:1313/tags/api-center/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/api-center/</guid>
+      <guid>http://localhost:1313/tags/api-center/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure Storage</title>
-      <link>https://jkleecloud.github.io/tags/azure-storage/</link>
+      <link>http://localhost:1313/tags/azure-storage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/azure-storage/</guid>
+      <guid>http://localhost:1313/tags/azure-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure Storage Actions</title>
-      <link>https://jkleecloud.github.io/tags/azure-storage-actions/</link>
+      <link>http://localhost:1313/tags/azure-storage-actions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/azure-storage-actions/</guid>
+      <guid>http://localhost:1313/tags/azure-storage-actions/</guid>
       <description></description>
     </item>
     <item>
       <title>Change Analysis</title>
-      <link>https://jkleecloud.github.io/tags/change-analysis/</link>
+      <link>http://localhost:1313/tags/change-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/change-analysis/</guid>
+      <guid>http://localhost:1313/tags/change-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Services (Classic)</title>
-      <link>https://jkleecloud.github.io/tags/cloud-services-classic/</link>
+      <link>http://localhost:1313/tags/cloud-services-classic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/cloud-services-classic/</guid>
+      <guid>http://localhost:1313/tags/cloud-services-classic/</guid>
       <description></description>
     </item>
     <item>
       <title>DB for PostgreSQL</title>
-      <link>https://jkleecloud.github.io/tags/db-for-postgresql/</link>
+      <link>http://localhost:1313/tags/db-for-postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/db-for-postgresql/</guid>
+      <guid>http://localhost:1313/tags/db-for-postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Defender for Cloud</title>
-      <link>https://jkleecloud.github.io/tags/defender-for-cloud/</link>
+      <link>http://localhost:1313/tags/defender-for-cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/defender-for-cloud/</guid>
+      <guid>http://localhost:1313/tags/defender-for-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Private Link</title>
-      <link>https://jkleecloud.github.io/tags/private-link/</link>
+      <link>http://localhost:1313/tags/private-link/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/private-link/</guid>
+      <guid>http://localhost:1313/tags/private-link/</guid>
       <description></description>
     </item>
     <item>
       <title>Resource Graph</title>
-      <link>https://jkleecloud.github.io/tags/resource-graph/</link>
+      <link>http://localhost:1313/tags/resource-graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/resource-graph/</guid>
+      <guid>http://localhost:1313/tags/resource-graph/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtual Network Encryption</title>
-      <link>https://jkleecloud.github.io/tags/virtual-network-encryption/</link>
+      <link>http://localhost:1313/tags/virtual-network-encryption/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/virtual-network-encryption/</guid>
+      <guid>http://localhost:1313/tags/virtual-network-encryption/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtual Network Manager</title>
-      <link>https://jkleecloud.github.io/tags/virtual-network-manager/</link>
+      <link>http://localhost:1313/tags/virtual-network-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/virtual-network-manager/</guid>
+      <guid>http://localhost:1313/tags/virtual-network-manager/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtual Networks</title>
-      <link>https://jkleecloud.github.io/tags/virtual-networks/</link>
+      <link>http://localhost:1313/tags/virtual-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jkleecloud.github.io/tags/virtual-networks/</guid>
+      <guid>http://localhost:1313/tags/virtual-networks/</guid>
       <description></description>
     </item>
   </channel>
