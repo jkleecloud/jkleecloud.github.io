@@ -1,6 +1,7 @@
 +++
 title = 'Azure Snippets w/c 13/05/2024'
 date = 2024-05-14T09:13:00+01:00
+publishDate = 2024-05-17T08:00:00+01:00
 draft = true
 categories = ['Azure Weekly 2024']
 tags = ['AKS', 'Application Gateway']
@@ -19,7 +20,7 @@ Azure services with highlighted updates this week:
 
 ## Application Gateway
 
-- [Application Gateway v2 Basic SKU (Public Preview)](https://azure.microsoft.com/en-gb/updates/public-preview-azure-application-gateway-v2-basic-sku/) : AG v2 gets a Basic SKU. Same base functionality and Capacity Units as Standard, with a slightly lower SLA (99.9% vs 99.95%), lower scaling maximums, and none of the advanced stuff (e.g. Private Link, URL rewrites). [SKU comparison here](https://learn.microsoft.com/en-us/azure/application-gateway/overview-v2#sku-types). Presumably the fixed cost will be cheaper (once it's out of preview :-)
+- [Application Gateway v2 Basic SKU (Public Preview)](https://azure.microsoft.com/en-gb/updates/public-preview-azure-application-gateway-v2-basic-sku/) : AG v2 gets a Basic SKU. Same base functionality and Capacity Units as Standard, with a slightly lower SLA (99.9% vs 99.95%), lower scaling maximums, and none of the advanced stuff (e.g. Private Link, URL rewrites). [SKU comparison here](https://learn.microsoft.com/en-us/azure/application-gateway/overview-v2#sku-types). Presumably the fixed cost will be cheaper (once it's out of preview and being charged for :-)
 
 ## Azure Kubernetes Service
 
