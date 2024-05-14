@@ -2,7 +2,7 @@
 title = 'Azure Snippets w/c 06/05/2024'
 date = 2024-05-07T11:54:50+01:00
 draft = false
-categories = ['Azure Weekly']
+categories = ['Azure Weekly 2024']
 tags = ['API Center', 'Virtual Network Manager', 'Defender for Cloud', 'DB for PostgreSQL', 'Resource Graph', 'Change Analysis', 'Virtual Networks', 'Cloud Services (classic)', 'Virtual Network Encryption', 'Private Link', 'Azure Storage Actions', 'Azure Storage', 'AKS']
 +++
 
