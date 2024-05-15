@@ -4,7 +4,7 @@ date = 2024-05-14T09:13:00+01:00
 publishDate = 2024-05-17T08:00:00+01:00
 draft = true
 categories = ['Azure Weekly 2024']
-tags = ['AKS', 'Application Gateway']
+tags = ['AKS', 'Application Gateway', 'Azure Site Recovery']
 +++
 
 Summary of Azure snippets for the week commencing 13th May 2024, grouped by Azure service.
