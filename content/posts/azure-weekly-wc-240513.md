@@ -1,8 +1,7 @@
 +++
 title = 'Azure Snippets w/c 13/05/2024'
-date = 2024-05-14T09:13:00+01:00
-publishDate = 2024-05-17T08:00:00+01:00
-draft = true
+date = 2024-05-17T08:00:00+01:00
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['AKS', 'Application Gateway', 'Azure Site Recovery']
 +++
@@ -28,4 +27,4 @@ Azure services with highlighted updates this week:
 - [AKS automatic use of Zone-Redundant storage to create managed disks when AKS cluster is deployed across availability zones](https://github.com/Azure/AKS/releases/tag/2024-04-28) : With Kubernetes 1.29 and built-in storage classes. As ZRS is more expensive than LRS, [this can be overridden](https://learn.microsoft.com/en-us/azure/aks/concepts-storage#storage-classes) with a custom storage class.
 
 ## Azure Site Recovery
-[ASR support for Trusted Launch VMs (Public Preview)](https://azure.microsoft.com/en-gb/updates/public-preview-azure-site-recovery-support-for-azure-trusted-launch-vms-windows-os/) : Fills a gap in ASR provision. [Few gotchas to check](https://learn.microsoft.com/en-us/azure/site-recovery/concepts-trusted-vm) though.
+- [ASR support for Trusted Launch VMs (Public Preview)](https://azure.microsoft.com/en-gb/updates/public-preview-azure-site-recovery-support-for-azure-trusted-launch-vms-windows-os/) : Fills a gap in ASR provision. [Few gotchas to check](https://learn.microsoft.com/en-us/azure/site-recovery/concepts-trusted-vm) though.
