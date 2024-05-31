@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 27/05/2024'
 date = 2024-05-31T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['API Center', 'AKS', 'Azure Site Recovery', 'ARM', 'Azure SQL', 'Azure SQL Managed Instance']
 +++
