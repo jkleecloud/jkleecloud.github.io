@@ -14,7 +14,7 @@ Public/Private Preview = as stated :-)
 Azure services with highlighted updates this week:
 
 - [API Center](#api-center)
-- [Azure Kubernetes Services](#azure-kubernetes-services)
+- [Azure Kubernetes Service](#azure-kubernetes-service)
 - [Azure Resource Manager](#azure-resource-manager)
 - [Azure Site Recovery](#azure-site-recovery)
 - [Azure SQL](#azure-sql)
@@ -23,7 +23,7 @@ Azure services with highlighted updates this week:
 
 - [Azure API Center Extension for VS Code (GA)](https://azure.microsoft.com/en-gb/updates/general-availability-azure-api-center-extension-for-vs-code/) : [Build, discover, try, and consume APIs](https://learn.microsoft.com/en-us/azure/api-center/use-vscode-extension) in your API center
 
-## Azure Kubernetes Services
+## Azure Kubernetes Service
 
 - [Advanced Container Networking Services for AKS (Public Preview)](https://azure.microsoft.com/en-gb/updates/advanced-container-networking-services/) : A new [suite of services bringing advanced network monitoring and diagnostics](https://learn.microsoft.com/en-gb/azure/aks/advanced-container-networking-services-overview) to AKS clusters. Currently includes only Advanced Network Observability as its inaugural and foundational feature - more are planned.
     - [Advanced Network Observability](https://learn.microsoft.com/en-gb/azure/aks/advanced-network-observability-concepts?tabs=non-cilium) is based on [Hubble](https://github.com/cilium/hubble) (itself based on Cilium, but both Cilium (with Kubernetes 1.29) and non-Cilium AKS data planes are supported). It uses Grafana and Prometheus for visualisation (Azure-managed or bring your own), and [Retina](https://retina.sh/) on non-Cilium nodes (presumably as the eBPF 'bridge'). It also supports all Azure CNI variants including kubenet.

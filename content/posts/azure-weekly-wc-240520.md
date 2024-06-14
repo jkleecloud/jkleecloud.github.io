@@ -21,7 +21,7 @@ Azure services with highlighted updates this week:
 - [Azure Cache for Redis](#azure-cache-for-redis)
 - [Azure Compute](#azure-compute)
 - [Azure Container Storage](#azure-container-storage)
-- [Azure Kubernetes Services](#azure-kubernetes-services)
+- [Azure Kubernetes Service](#azure-kubernetes-service)
 - [Azure Resource Manager](#azure-resource-manager)
 - [Azure SQL](#azure-sql)
 - [Log Analytics](#log-analytics)
@@ -56,7 +56,7 @@ Azure services with highlighted updates this week:
 - [Azure Container Storage (GA)](https://news.microsoft.com/build-2024-book-of-news/#a-132-azure-migrate-and-azure-container-storage-updates) : In the next month.
 - [Azure Files updates for ACS (Preview)](https://news.microsoft.com/build-2024-book-of-news/#a-132-azure-migrate-and-azure-container-storage-updates) : Vaulted backups, soft delete for NFS file shares, geo-redundancy for large file shares, metadata caching.
 
-## Azure Kubernetes Services
+## Azure Kubernetes Service
 
 - [Kubernetes 1.30 support (Public Preview)](https://azure.microsoft.com/en-gb/updates/public-preview-kubernetes-version-130-support-in-aks/)
 - [KEDA in the Azure Portal (GA?)](https://azure.microsoft.com/en-gb/updates/public-preview-keda-scaling-in-the-azure-portal/) : Kubernetes Event-Drive Autoscaler (KEDA) is an open-source, lightweight component that allows users to autoscale container workloads on events in external scalers. KEDA extends the functionality of the native Kubernetes Horizontal Pod Autoscaler (HPA) with a wide variety of scalers and scale-to-zero capabilities, thus allowing user applications to meet demand in a more sustainable and cost-efficient manner. (Interesting that the article says it's GA, but the URL has 'public preview' in it. This doesn't seem to be in the [KEDA docs](https://learn.microsoft.com/en-us/azure/aks/keda-about) yet either (only mentions ARM template and CLI) - approach with caution perhaps :-)
