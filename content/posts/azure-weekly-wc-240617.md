@@ -6,7 +6,7 @@ categories = ['Azure Weekly 2024']
 tags = ['DB for PostgreSQL', 'AKS', 'Compute', 'Virtual Network Manager', 'Azure SQL Managed Instance', 'ARM']
 +++
 
-Summary of Azure snippets for the week commencing 17th June 2024, grouped by Azure service. I managed to miss a week as the [Azure Updates](https://azure.microsoft.com/en-gb/updates/) site is currently undergoing maintenance, and I've only just found its [temporary replacement](https://techcommunity.microsoft.com/t5/azure-updates/bg-p/AzureUpdates).
+Summary of Azure snippets for the week commencing 17th June 2024, grouped by Azure service. I managed to miss a week as the [Azure Updates](https://azure.microsoft.com/en-gb/updates/) site is currently undergoing maintenance (so the RSS feed isn't updating) and I've only just found its [temporary replacement](https://techcommunity.microsoft.com/t5/azure-updates/bg-p/AzureUpdates).
 
 GA = Generally Available  
 Public/Private Preview = as stated :-)
