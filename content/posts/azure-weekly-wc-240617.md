@@ -30,7 +30,7 @@ Azure services with highlighted updates this week:
 - [kube-egress-gateway (GA)](https://techcommunity.microsoft.com/t5/azure-updates/week-of-june-20-2024-azure-updates/ba-p/4173016) : [kube-egress-gateway](https://github.com/Azure/kube-egress-gateway) is an open-source project that offers a scalable and cost-efficient solution for configuring fixed source IPs for Kubernetes pod egress traffic on Azure.
 - [OS Security Patch channel for Linux in AKS (GA)](https://techcommunity.microsoft.com/t5/azure-updates/week-of-june-20-2024-azure-updates/ba-p/4173016) : SecurityPatch now added to the [channels for node OS image upgrades](https://learn.microsoft.com/en-us/azure/aks/auto-upgrade-node-os-image?tabs=azure-cli#channels-for-node-os-image-upgrades) in AKS.
 - [az command invoke in AKS (GA)](https://techcommunity.microsoft.com/t5/azure-updates/week-of-june-20-2024-azure-updates/ba-p/4173016) : [Invoke a command](https://learn.microsoft.com/en-us/azure/aks/access-private-cluster?tabs=azure-cli) (e.g. running kubectl) remotely in a private cluster through the AKS API, without connecting directly to the cluster. This can be done from a client that isn't on the cluster's private network. Access to the *command invoke* command is controlled through [RBAC permissions](https://learn.microsoft.com/en-us/azure/aks/access-private-cluster?tabs=azure-cli#before-you-begin).
-- [AKS patch version 1.27.13 now available in AKS (GA)](https://github.com/Azure/AKS/releases/tag/2024-06-09)
+- [Kubernetes patch version 1.27.13 now available in AKS (GA)](https://github.com/Azure/AKS/releases/tag/2024-06-09)
 
 ## Azure Landing Zones
 
