@@ -1,14 +1,14 @@
 +++
 title = 'Azure Snippets w/c 08/07/2024'
 date = 2024-07-12T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2024']
-tags = ['Azure Load Balancer', 'FinOps', 'AKS']
+tags = ['Azure Load Balancer', 'FinOps', 'AKS', 'Azure Policy']
 +++
 
 After a couple of weeks off due to holidays and a general lack of updates from MS, we now return to our regularly scheduled programming :-)
 
-Summary of Azure snippets for the week commencing 8th July 2024, grouped by Azure service. Note: No Azure Monthly summary this month - check out [the weekly summary from early June](../azure-weekly-wc-240617/) for the rest of June's material.
+Summary of Azure snippets for the week commencing 8th July 2024, grouped by Azure service. No Azure Monthly summary this month as there's [only one other post for June](../azure-weekly-wc-240617/).
 
 GA = Generally Available  
 Public/Private Preview = as stated :-)
@@ -17,6 +17,7 @@ Azure services with highlighted updates this week:
 
 - [Azure Load Balancer](#azure-load-balancer)
 - [Azure Kubernetes Service](#azure-kubernetes-service)
+- [Azure Policy](#azure-policy)
 - [FinOps](#finops)
 
 ## Azure Load Balancer
@@ -29,6 +30,10 @@ Azure services with highlighted updates this week:
     - K8s 1.30 will be the next LTS version in AKS
     - AKS patch versions 1.27.14, 1.28.10, and 1.29.5, are now available. 1.27.9, 1.28.5, and 1.29.2 patch versions are deprecated.
     - [Cost Analysis](https://learn.microsoft.com/en-gb/azure/aks/cost-analysis) is now [available on AKS resource blades](https://learn.microsoft.com/en-gb/azure/cost-management-billing/costs/view-kubernetes-costs) (shows as Preview if enabled on your tenant). It's available for Standard and Premium tier clusters only and must be enabled (as an add-on) on every cluster you wish to view costs for.
+- Copilot in Azure can now [assist with cluster management using kubectl](https://techcommunity.microsoft.com/t5/itops-talk-blog/microsoft-copilot-in-azure-series-kubectl/ba-p/4188499)
+
+## Azure Policy
+- [Built-in versioning (Public Preview)](https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-announcement-azure-policy-built-in-versioning/ba-p/4186105) : Policies (and initiatives) can now have multiple versions but keep a single definition ID for reference. Follows semantic versioning standard. Should be a boost to Policy governance and management.
 
 ## FinOps
 
