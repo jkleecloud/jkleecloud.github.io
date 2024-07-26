@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 22/07/2024'
 date = 2024-07-26T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['AKS', 'DB for PostgreSQL', 'Azure Storage', 'Compute', 'Governance']
 +++
@@ -35,7 +35,7 @@ Azure services with highlighted updates this week:
 
 ## Compute
 
-- [6th generation Intel-based VMs – Dv6/Ev6 (Public Preview)](https://azure.microsoft.com/en-us/updates/v2/6th-generation-Intel-based-VMs-Dv6-Ev6) : General Purpose and Memory-optimised variants, initially available in US West and US East. [Claimed performance increase over v5 VMs as well as increased scalability](https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-dlsv6-dsv6-esv6-vms-with-new-cpu/ba-p/4192124). Also support [Azure Boost](https://learn.microsoft.com/en-gb/azure/azure-boost/overview) for increased performance.
+- [6th generation Intel-based VMs – Dv6/Ev6 (Public Preview)](https://azure.microsoft.com/en-us/updates/v2/6th-generation-Intel-based-VMs-Dv6-Ev6) : General Purpose and Memory-optimised variants, initially available in US West and US East. [Claimed performance increase over v5 VMs as well as increased scalability](https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-dlsv6-dsv6-esv6-vms-with-new-cpu/ba-p/4192124). Also support [Azure Boost](https://learn.microsoft.com/en-gb/azure/azure-boost/overview) for increased performance (as will all new VM series going forward).
 
 ## Governance
 
