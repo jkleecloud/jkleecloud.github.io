@@ -3,7 +3,7 @@ title = 'Azure Snippets w/c 29/07/2024'
 date = 2024-08-02T08:00:16+01:00
 draft = false
 categories = ['Azure Weekly 2024']
-tags = []
+tags = ['Azure Backup', 'Azure Container Storage', 'AKS', 'Sustainability']
 +++
 
 Summary of Azure snippets for the week commencing 29th July 2024, grouped by Azure service.
@@ -14,6 +14,9 @@ Public/Private Preview = as stated :-)
 Azure services with highlighted updates this week:
 
 - [Azure Backup](#azure-backup)
+- [Azure Container Storage](#azure-container-storage)
+- [Azure Kubernetes Service](#azure-kubernetes-service)
+- [Sustainability](#sustainability)
 
 ## Azure Backup
 
