@@ -1,7 +1,7 @@
 +++
 title = 'Azure Monthly Summary - July 2024'
 date = 2024-08-12T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Monthly 2024']
 +++
 
