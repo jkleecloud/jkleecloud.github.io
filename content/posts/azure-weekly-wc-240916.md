@@ -1,12 +1,12 @@
 +++
 title = 'Azure Snippets w/c 16/09/2024'
-date = 2024-09-20T08:00:16+01:00
-draft = true
+date = 2024-10-01T08:00:16+01:00
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['IaC', 'Azure Storage', 'AKS']
 +++
 
-Summary of Azure snippets for the week commencing 16th September 2024, grouped by Azure service.
+Summary of Azure snippets for the week commencing 16th September 2024, grouped by Azure service. Published slightly later than planned!
 
 GA = Generally Available  
 Public/Private Preview = as stated :-)
