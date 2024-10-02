@@ -6,7 +6,16 @@ categories = ['Tech Posts']
 tags = ['Application Gateway']
 +++
 
-Application Gateways are used to support load balancing, traffic management and certificate management for applications. Since the initial launch of the V1 SKU, an AG V2 SKU has been introduced with improved performance and additional features. Microsoft have announced that the Application Gateway V1 SKU will be retired on 28th April 2026; no new V1 deployments have been allowed since 28th August 2024. If you haven’t already, you should begin planning the migration path to upgrade your Application Gateways to the V2 SKU.
+This post captures some of the key details I've noted while looking at migrating Applications Gateways from the V1 SKU to V2:
+
+- Migration Path
+- Key config differences between V1 and V2
+- Sizing, Pricing and Resilience
+- Subnets
+
+# Background
+
+Application Gateways (AGs) are used to support load balancing, traffic management and certificate management for applications. Since the initial launch of the V1 SKU, an AG V2 SKU has been introduced with improved performance and additional features. Microsoft have announced that the Application Gateway V1 SKU will be retired on 28th April 2026; no new V1 deployments have been allowed since 28th August 2024. If you haven’t already, you should begin planning the migration path to upgrade your Application Gateways to the V2 SKU.
 
 # Migration Path V1-V2
 
@@ -22,7 +31,7 @@ There is no direct migration path to upgrade existing V1 AG instances to the V2 
 
 ## Backend certificates
 
-The V1 AG uses authentication certificates for each backend server instance (e.g. servername.cer). V2 AGs require the trusted root certificate for the backend server certificates to be uploaded instead (again in .cer format (public key)). Only 1 certificate is thus required, rather than 1 for each backend.
+The V1 AG uses authentication certificates for each backend server instance (e.g. *servername*.cer). V2 AGs require the trusted root certificate for the backend server certificates to be uploaded instead (again in .cer format (public key)). Only 1 certificate is thus required, rather than 1 for each backend.
 
 ## TLS/SSL certificates (front-end)
 
