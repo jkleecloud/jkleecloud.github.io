@@ -1,9 +1,9 @@
 +++
 title = 'Azure Snippets w/c 30/09/2024'
 date = 2024-10-04T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2024']
-tags = ['DB for PostgreSQL', 'Redis', 'IaC', 'NSG', 'Application Gateway']
+tags = ['DB for PostgreSQL', 'Redis', 'IaC', 'NSG', 'Application Gateway', 'Azure Backup', 'Virtual Network Manager']
 +++
 
 Summary of Azure snippets for the week commencing 30th September 2024, grouped by Azure service. Almost back to normal posting cadence :-)
@@ -15,15 +15,21 @@ RET = Service retirement
 Azure services with highlighted updates this week:
 
 - [Application Gateway](#application-gateway)
+- [Azure Backup](#azure-backup)
 - [Azure Cache for Redis](#azure-cache-for-redis)
 - [Azure DB for PostgreSQL](#azure-db-for-postgresql)
 - [Azure Kubernetes Service](#azure-kubernetes-service)
 - [Infrastructure as Code](#infrastructure-as-code)
 - [Network Security Groups](#network-security-groups)
+- [Virtual Network Manager](#virtual-network-manager)
 
 ## Application Gateway
 
 - [Azure Application Gateway support for TLS 1.0 and TLS 1.1 will end by 31 August 2025 (RET)](https://azure.microsoft.com/en-us/updates/v2/Azure-Application-Gateway-support-for-TLS-10-and-TLS-11-will-end-by-31-August-2025) : All connections (frontend and backend) to Application Gateway must use Transport Layer Security (TLS) 1.2 or later, as support for TLS 1.0 and 1.1 on Azure Application Gateway will be discontinued starting 31st August 2025.
+
+## Azure Backup
+
+- [Azure Business Continuity Center (Public Preview)](https://azure.microsoft.com/en-us/updates/v2/Switch-to-Azure-Business-Continuity-Center-for-your-at-scale-BCDR-management-needs) : [Centralised management platform for backup and disaster recovery](https://learn.microsoft.com/en-us/azure/business-continuity-center/business-continuity-center-overview) of Azure resources. Will be replacing the Backup Center, which I think we can probably safely regard as deprecated from this point forward. [Supports](https://learn.microsoft.com/en-us/azure/business-continuity-center/business-continuity-center-support-matrix) resources in all regions and a variety of sources and scenarios. (No idea why the title of the page on Azure Updates says Generally Available when it's clearly still in preview :-)
 
 ## Azure Cache for Redis
 
@@ -48,3 +54,9 @@ Azure services with highlighted updates this week:
 ## Network Security Groups
 
 - [Network security group flow logs in Azure Network Watcher will be retired (RET)](https://azure.microsoft.com/en-us/updates/v2/Azure-NSG-flow-logs-Retirement) : Flow logs to be retired on 30/9/27, but you won't be able to create new ones from 30/6/25. Migration path is to [virtual network flow logs](https://learn.microsoft.com/en-gb/azure/network-watcher/vnet-flow-logs-portal), and a [migration process](https://learn.microsoft.com/en-gb/azure/network-watcher/nsg-flow-logs-migrate) is available.
+
+## Virtual Network Manager
+
+- [Azure Virtual Network Monitoring IP address management (Public Preview)](https://azure.microsoft.com/en-us/updates/v2/Introducing-the-Public-Preview-of-AVNM-IPAM) : This feature (part of [Virtual Network Manager](https://learn.microsoft.com/en-us/azure/virtual-network-manager/overview)) is designed to [streamline and optimise your IP address management](https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-ip-address-management), providing you with greater control and efficiency. Tracking IP address use in VNets and subnets to avoid clashes can be tricky in Azure, and if you're using services such as Private Endpoints which can dynamically assign IP addresses, it gets even harder - something like this could be helpful and maybe remove the need for manual tracking of IPs. Preview available in UK South but not UK West.
+
+And finally, goodbye to [Azure Orbital Ground Station](https://azure.microsoft.com/en-us/updates/v2/Azure-Orbital-Ground-Station-Retirement), which is being retired on 18th December 2024. Not my usual focus, but I couldn't let it pass without a note!
