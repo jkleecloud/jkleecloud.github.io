@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 28/10/2024'
 date = 2024-11-04T11:00:16+00:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['API Center', 'APIM', 'Azure Storage', 'IaC']
 +++
@@ -16,6 +16,7 @@ Azure services with highlighted updates this week:
 
 - [API Center](#api-center)
 - [Azure Storage](#azure-storage)
+- [Compute](#compute)
 - [Infrastructure as Code](#infrastructure-as-code)
 
 ## API Center
