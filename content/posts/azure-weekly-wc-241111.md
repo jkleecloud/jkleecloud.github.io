@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 11/11/2024'
-date = 2024-11-13T16:00:12Z
-draft = true
+date = 2024-11-15T08:00:12Z
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['AKS', 'Azure Load Balancer', 'Azure Storage', 'Compute', 'Virtual Network Manager']
 +++
@@ -24,7 +24,7 @@ Azure services with highlighted updates this week:
 
 ## Azure Kubernetes Service
 
-- [Latest AKS release (GA)](https://github.com/Azure/AKS/releases/tag/2024-10-25) : Includes AKS patch versions 1.28.14, 1.29.9, 1.30.5 and GA for AKS 1.31; plus the first official patch version of AKS LTS 1.27, 1.27.100.
+- [Latest AKS release (GA)](https://github.com/Azure/AKS/releases/tag/2024-10-25) : Includes AKS patch versions 1.28.14, 1.29.9, 1.30.5, and GA for AKS 1.31; plus the first official patch version of AKS LTS 1.27, 1.27.100.
 - [Advanced Container Networking Services (GA)](https://azure.microsoft.com/en-gb/updates?id=466985) : [ACNS](https://learn.microsoft.com/en-gb/azure/aks/advanced-container-networking-services-overview?tabs=cilium) includes Advanced Network Observability, providing pod-level metrics, DNS insights, and enhanced troubleshooting tools for network debugging in AKS, plus FQDN filtering. A [powerful upgrade to network observability in AKS](https://techcommunity.microsoft.com/blog/azureobservabilityblog/advanced-network-observability-for-your-azure-kubernetes-service-clusters-throug/4176736).
 - [Delete a specific machine in a node pool (GA)](https://azure.microsoft.com/en-gb/updates?id=466990) : It is now possible to [specifically choose which VM to delete and remove](https://learn.microsoft.com/en-gb/azure/aks/manage-node-pools#remove-specific-vms-in-the-existing-node-pool) when scaling down a node pool in AKS. This provides greater control and flexibility in managing resources within the node pool. Actioned via the Azure CLI, and doesn't cordon and drain the node - need to do that yourself first.
 - [Ignore PDBs on node deletion (GA)](https://azure.microsoft.com/en-gb/updates?id=466995) : Node pools in AKS can now be deleted even if there are pods monitored by a Pod Disruption Budget (PDB) – previously, the deletion of the node pool could fail due to an unsatisfied PDB. This enhancement allows the deletion to proceed by [ignoring the PDB error](https://learn.microsoft.com/en-gb/azure/aks/delete-node-pool?tabs=azure-cli#ignore-poddisruptionbudgets-pdbs-when-removing-an-existing-node-pool) that would previously block the deletion from continuing.
@@ -46,4 +46,4 @@ Azure services with highlighted updates this week:
 
 ## Virtual Network Manager
 
-- V[irtual Network Manager user-defined route (UDR) management (GA)](https://azure.microsoft.com/en-us/updates/v2/Introducing-the-general-availability-of-Azure-Virtual-Network-Manager-UDR-management) : Hot on the heels of the [recently announced IP address management preview feature](https://jkleecloud.github.io/posts/azure-weekly-wc-240930/#virtual-network-manager), [UDR management](https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-user-defined-route) simplifies managing complex routing behaviors by automating UDR orchestration. Through Azure Virtual Network Manager’s UDR management, users can easily set up routing configurations that define routing rules, allowing automatic deployment across virtual networks. This means users no longer need to manually create UDRs or use custom scripts—reducing errors and simplifying routing at scale. [GA in specific regions](https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-user-defined-route#general-availability), including UK South and UK West. Centralising and automating UDR creation is definitely useful, particularly for big networks.
+- [Virtual Network Manager user-defined route (UDR) management (GA)](https://azure.microsoft.com/en-us/updates/v2/Introducing-the-general-availability-of-Azure-Virtual-Network-Manager-UDR-management) : Hot on the heels of the [recently announced IP address management preview feature](https://jkleecloud.github.io/posts/azure-weekly-wc-240930/#virtual-network-manager), [UDR management](https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-user-defined-route) simplifies managing complex routing behaviors by automating UDR orchestration. Through Azure Virtual Network Manager’s UDR management, users can easily set up routing configurations that define routing rules, allowing automatic deployment across virtual networks. This means users no longer need to manually create UDRs or use custom scripts—reducing errors and simplifying routing at scale. [GA in specific regions](https://learn.microsoft.com/en-us/azure/virtual-network-manager/concept-user-defined-route#general-availability), including UK South and UK West. Centralising and automating UDR creation is definitely useful, particularly for big networks.
