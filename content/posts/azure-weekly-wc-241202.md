@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 02/12/2024'
 date = 2024-12-05T10:50:44Z
-draft = true
+draft = false
 categories = ['Azure Weekly 2024']
 tags = ['API Center', 'Azure Bastion', 'Chaos Studio', 'DB for PostgreSQL', 'AKS', 'Azure Local', 'Dev Box', 'Network Security Perimeter', 'Azure SQL', 'APIM', 'Extended Zones', 'Redis']
 +++
@@ -10,7 +10,7 @@ Summary of Azure snippets for the week commencing 2nd December 2024, grouped by 
 
 It's been a little while since I posted, and this one is a bit of a bumper one with MS Ignite having finished recently - a lot of Azure updates have dropped, along with other products. AI is unsurprisingly a big theme once again :-) Check out the [Ignite 2024 Book of News](https://news.microsoft.com/ignite-2024-book-of-news/) for all the details.
 
-For all the updates on Azure platform resources and products - [Azure updates from Microsoft](https://azure.microsoft.com/en-gb/updates/)
+For all the updates on Azure platform resources and products - [Azure updates from Microsoft](https://azure.microsoft.com/updates/)
 
 GA = Generally Available  
 Public/Private Preview = as stated  
