@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 10/02/2025'
 date = 2025-02-13T08:00:10Z
-draft = true
+draft = false
 categories = ['Azure Weekly 2025']
 tags = ['Azure Data Studio', 'Compute', 'AKS', 'Virtual Network Manager', 'Azure SQL', 'Azure SQL Managed Instance', 'Azure Storage', 'IaC']
 +++
