@@ -1,12 +1,12 @@
 +++
 title = 'Azure Snippets w/c 07/04/2025 - AKS Edition'
-date = 2025-04-07T20:00:16+01:00
-draft = true
+date = 2025-04-09T20:00:16+01:00
+draft = false
 categories = ['Azure Weekly 2025']
 tags = ['AKS']
 +++
 
-Summary of Azure snippets for the week commencing 7th April 2025. As so many AKS updates have dropped recently, I've decided to do a special AKS edition post to round them all up.
+Summary of Azure snippets for the week commencing 7th April 2025. As so many AKS updates have dropped recently, I've decided to do a special AKS edition post this week to round them all up.
 
 For all the updates on Azure platform resources and products - [Azure updates from Microsoft](https://azure.microsoft.com/updates/)
 
@@ -30,6 +30,8 @@ RET = Service retirement
 
 - [Multi-cluster Workload Rollout Strategies and Runs with Azure Kubernetes Fleet Manager (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486736) : Operators using Azure Kubernetes Fleet Manager’s Cluster Resource Placement for intelligent execution of multi-cluster workload placement can now define reusable staged rollout strategies using [ClusterStagedUpdateStrategy](https://learn.microsoft.com/en-gb/azure/kubernetes-fleet/concepts-rollout-strategy#staged-update-strategy-preview) custom resource.
 
+- [Multi-cluster Eviction and Disruption Budgets with Azure Kubernetes Fleet Manager (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486741) : With the introduction of ClusterResourcePlacementEviction objects, Fleet Manager’s workload placement provides operators with a way to [forcibly remove placed resources from member clusters](https://learn.microsoft.com/en-gb/azure/kubernetes-fleet/concepts-eviction-disruption). When this happens, it is important for operators to be able to control eviction across their Fleet. For this purpose, a newly available ClusterResourcePlacementDisruptionBudget custom resource can help operators ensure that workload availability is maintained in the event of workload eviction.
+
  - [Cilium WireGuard Encryption Support in AKS (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486746) : AKS supports WireGuard encryption in Advanced Container Networking Services + Cilium data plane clusters. This enables seamless node-to-node encryption for improved security.
 
  -  [AKS Support for Persistent Network Flow Logging for Advanced Container Networking Services (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486756) : To enable better security auditing, performance analysis, and troubleshooting of network flows within your AKS clusters, AKS now supports persistent network flow logging with Advanced Container Networking Services' [Container Network Observability](https://learn.microsoft.com/en-us/azure/aks/container-network-observability-concepts?tabs=cilium) feature. This enhancement allows you to capture and retain detailed network traffic logs over time.
@@ -41,3 +43,11 @@ RET = Service retirement
  - [Azure CNI Node Subnet + Cilium Support (GA)](https://azure.microsoft.com/en-gb/updates?id=486751) : AKS now supports the Cilium dataplane with Azure CNI Node Subnet. This enhancement allows you to leverage Cilium’s advanced networking capabilities while using Node Subnet IP allocation, maintaining your existing IP allocation strategies.
 
  - [Advanced Container Networking Services Cilium L7 Policies Support in AKS (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486774) : AKS now supports Layer 7 (L7) network policies in Advanced Container Networking Services + Cilium clusters, enabling fine-grained control over application traffic. With L7 policies, customers can define security rules based on application-layer attributes, improving zero-trust security models within AKS.
+
+- [Cilium Endpoint Slices in AKS (GA)](https://azure.microsoft.com/en-gb/updates?id=486779) : AKS now supports Cilium endpoint slices, improving scalability and efficiency of network endpoint management. By reducing API server load and optimizing service discovery, endpoint slices enhance networking performance for AKS clusters using the Cilium dataplane.
+
+- [Service Allowed IP Ranges in AKS (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486789) : AKS now allows you to define both IP ranges and service tags for [Service LoadBalancers](https://cloud-provider-azure.sigs.k8s.io/topics/loadbalancer/) (via annotations), providing more flexible traffic control than loadBalancerSourceRanges. This eliminates the need for manual service tag updates and ensures seamless traffic management across on-premises and Azure services.
+
+- [Multiple Load Balancers for AKS (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=486794) : To address existing SLB rule limits and private link constraints, AKS now supports multiple standard load balancers (SLB) per cluster. This enhancement allows for better scalability, workload distribution, and flexibility in managing network traffic across large deployments.
+
+- [AKS Cost Recommendations in Azure Advisor (GA)](https://azure.microsoft.com/en-gb/updates?id=486804) : [Azure Advisor now offers AKS cost recommendations](https://learn.microsoft.com/en-gb/azure/aks/cost-advisors). These advisors are designed to identify cost savings opportunities and provide actionable insights to enforce AKS cost best practices. The recommendations are tailored to your cluster configuration and target rightsizing, autoscaling, visibility, and SKU selection scenarios.
