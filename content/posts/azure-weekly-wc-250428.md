@@ -6,7 +6,7 @@ categories = ['Azure Weekly 2025']
 tags = ['DB for PostgreSQL', 'Redis', 'IaC', 'NSG', 'Application Gateway', 'Azure Backup', 'Virtual Network Manager', 'Compute', 'FinOps', 'Azure Storage']
 +++
 
-Summary of Azure snippets for the week commencing 28th April 2025, grouped by Azure service.
+Summary of Azure snippets for the week commencing 28th April 2025, grouped by Azure service. I'm a bit behind with the last post being AKS-specific, so this is quite a large one :-)
 
 For all the updates on Azure platform resources and products - [Azure updates from Microsoft](https://azure.microsoft.com/updates/)
 
