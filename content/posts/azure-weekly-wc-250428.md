@@ -16,7 +16,12 @@ RET = Service retirement
 
 Azure services with highlighted updates this week:
 
-- [Application Gateway](#application-gateway)
+- [API Management](#api-management)
+- [Azure Kubernetes Services](#azure-kubernetes-services)
+- [Azure SQL](#azure-sql)
+- [Compute](#compute)
+- [Sustainability](#sustainability)
+- [Virtual Networks](#virtual-networks)
 
 ## API Management
 
