@@ -1,12 +1,12 @@
 +++
 title = 'Azure Snippets w/c 28/04/2025'
-date = 2025-05-02T08:00:16+01:00 (BST)
-draft = true
+date = 2025-05-14T08:00:16+01:00
+draft = false
 categories = ['Azure Weekly 2025']
-tags = ['DB for PostgreSQL', 'Redis', 'IaC', 'NSG', 'Application Gateway', 'Azure Backup', 'Virtual Network Manager', 'Compute', 'FinOps', 'Azure Storage']
+tags = ['API Management', 'AKS', 'Azure SQL', 'Compute', 'Sustainability', 'Virtual Networks']
 +++
 
-Summary of Azure snippets for the week commencing 28th April 2025, grouped by Azure service. I'm a bit behind with the last post being AKS-specific, so this is quite a large one :-)
+Summary of Azure snippets for the week commencing 28th April 2025, grouped by Azure service. Somewhat delayed posting this one :-)
 
 For all the updates on Azure platform resources and products - [Azure updates from Microsoft](https://azure.microsoft.com/updates/)
 
