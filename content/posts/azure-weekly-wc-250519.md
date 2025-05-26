@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 19/05/2025'
 date = 2025-05-26T14:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2025']
 tags = ['Azure Backup', 'Azure Bastion', 'Azure Functions', 'Azure Site Recovery', 'Azure Storage', 'Cloud Services', 'Compute', 'Copilot', 'DB for PostgreSQL', 'FinOps', 'Governance', 'IaC']
 +++
