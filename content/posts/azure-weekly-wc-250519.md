@@ -29,7 +29,6 @@ Azure services with highlighted updates this week:
 - [Governance](#governance)
 - [Infrastructure as Code](#infrastructure-as-code)
 
-
 ## Azure Backup
 
 - [Vaulted backup for Azure Data Lake Storage (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=488835) : Azure Backup now supports [transferring your Azure Data Lake Storage backups to a vault](https://learn.microsoft.com/en-us/azure/backup/azure-data-lake-storage-backup-overview). In this limited public preview, you can configure vaulted backups for block blobs in a HNS-enabled standard general-purpose v2 ADLS Gen2 storage account in [specific regions](https://learn.microsoft.com/en-us/azure/backup/azure-data-lake-storage-backup-support-matrix#supported-regions) (a very limited set at present).
