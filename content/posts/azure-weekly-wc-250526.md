@@ -3,7 +3,7 @@ title = 'Azure Snippets w/c 26/05/2025'
 date = 2025-06-02T08:00:16+01:00
 draft = false
 categories = ['Azure Weekly 2025']
-tags = ['API Center', 'APIM', 'AKS', 'Azure Backup', 'Azure Storage', 'Azure Monitor', 'Networking', 'Compute', 'Dev Box', 'Governance', 'IaC', 'Planetary Computer']
+tags = ['API Center', 'APIM', 'AKS', 'Azure Backup', 'Azure Storage', 'Azure Monitor', 'Virtual Networks', 'Compute', 'Dev Box', 'Governance', 'IaC', 'Planetary Computer']
 +++
 
 Summary of Azure snippets for the week commencing 26th May 2025, grouped by Azure service.
@@ -28,8 +28,8 @@ Azure services with highlighted updates this week:
 - [Dev Box](#dev-box)
 - [Governance](#governance)
 - [Infrastructure as Code](#infrastructure-as-code)
-- [Networking](#networking)
 - [Planetary Computer](#planetary-computer)
+- [Virtual Networks](#virtual-networks)
 
 ## API Center
 
@@ -108,12 +108,12 @@ Azure services with highlighted updates this week:
 
 - [GitHub Copilot for Azure (GA)](https://azure.microsoft.com/en-gb/updates?id=492584) : With features to help you create deployments with Bicep and Terraform, efficient issue identification and resolution, and deep integration with Azure resources, GitHub Copilot for Azure empowers developers to build, manage, and troubleshoot applications effortlessly.
 
-## Networking
+## Planetary Computer
+
+- [Microsoft Planetary Computer Pro (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=494165) : [Microsoft Planetary Computer Pro](https://azure.microsoft.com/en-us/products/planetary-computer-pro) is a comprehensive geospatial data platform designed to accelerate the generation of geospatial insights and their integration into enterprise Data & AI workflows.
+
+## Virtual Networks
 
 - [Private Subnet (GA)](https://azure.microsoft.com/en-gb/updates?id=492953) : Essentially, this removes the 'implicit' [default outbound connectivity](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access) to the Internet that e.g. VMs have when created in a network without an 'explicit' outbound connection mechanism, which is through default public IP addresses that aren't very visible. With a private subnet, you'll need to explicitly create an outbound connectivity method, such as a NAT Gateway or Public IP address. Important to note that this will be the default deployment mode for all new VNets/subnets after 30th September 2025. (NAT Gateways and Public IP addresses, of course, are not free :-)
 
 - [VM Network Troubleshooter (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=491437) : Customers can identify blocked ports faster with the Azure Portal's latest enhancement. The VM Overview blade in the Azure Portal has a new [troubleshooter tool](https://learn.microsoft.com/en-gb/azure/network-watcher/vm-network-troubleshooter) allowing users to run network diagnostics and check for common ports (HTTP/S and RDP at the moment) being blocked. Anyone who's had to troubleshoot VM connectivity will most likely appreciate anything that makes it easier!
-
-## Planetary Computer
-
-- [Microsoft Planetary Computer Pro (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=494165) : [Microsoft Planetary Computer Pro](https://azure.microsoft.com/en-us/products/planetary-computer-pro) is a comprehensive geospatial data platform designed to accelerate the generation of geospatial insights and their integration into enterprise Data & AI workflows.
