@@ -1,8 +1,9 @@
 +++
 title = 'Azure Snippets w/c 16/06/2025'
 date = 2025-06-20T08:00:16+01:00
+draft = false
 categories = ['Azure Weekly 2025']
-tags = ['APIM', 'Azure Backup', 'Azure Command Launcher', 'Azure DB for PostgreSQL', 'Azure Functions', 'Azure SQL', 'Azure SQL Managed Instance']
+tags = ['APIM', 'Azure Backup', 'Azure Command Launcher', 'Azure DB for PostgreSQL', 'Azure Functions', 'Azure SQL', 'Azure SQL Managed Instance', 'AKS']
 +++
 
 Summary of Azure snippets for the week commencing 16th June 2025, grouped by Azure service. After the flurry of announcements from and around Build, it's a little quieter this week :-)
@@ -20,6 +21,7 @@ Azure services with highlighted updates this week:
 - [Azure Command Launcher](#azure-command-launcher)
 - [Azure DB for PostgreSQL](#azure-db-for-postgresql)
 - [Azure Functions](#azure-functions)
+- [Azure Kubernetes Services](#azure-kubernetes-services)
 - [Azure SQL](#azure-sql)
 
 ## API Management
@@ -41,6 +43,10 @@ Azure services with highlighted updates this week:
 ## Azure Functions
 
 - [OpenTelemetry support (Public Preview)](https://azure.microsoft.com/en-gb/updates?id=496415) : Expanding on the limited preview announced last year, these enhancements deliver [better observability](https://learn.microsoft.com/en-us/azure/azure-functions/opentelemetry-howto?tabs=app-insights&pivots=programming-language-csharp), improved performance, and more detailed insights into your function executions, helping you diagnose issues faster and optimize your applications more effectively. For those already using OTEL with tools like Prometheus and Grafana, this makes it easier to integrate Azure Functions into your monitoring.
+
+## Azure Kubernetes Services
+
+- [AKS Release 2025-06-17 now available (GA)](https://github.com/Azure/AKS/releases/tag/2025-06-17) : Among other new features, Kubernetes 1.27 LTS version and 1.30 community version are going out of support by July 30th; Kubernetes 1.33 community version is going to be released before the end of June; AKS patch versions 1.32.5, 1.31.9 are now available; and [API Server VNet integration](https://learn.microsoft.com/en-gb/azure/aks/api-server-vnet-integration#limited-availability) has been rolled out to more regions (includes UK West, but unusually not UK South!).
 
 ## Azure SQL
 
