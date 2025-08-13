@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 11/08/2025'
 date = 2025-08-13T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2025']
 tags = ['Application Gateway', 'AKS', 'Azure Storage', 'Network Security Perimeter', 'Virtual Network Manager', 'Azure Monitor']
 +++
