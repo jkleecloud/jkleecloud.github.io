@@ -38,7 +38,7 @@ Azure services with highlighted updates this week:
 
 ## Azure Kubernetes Services
 
-- [AKS Automatic](https://azure.microsoft.com/en-us/updates?id=503235) (GA) : With [AKS Automatic](https://learn.microsoft.com/en-gb/azure/aks/intro-aks-automatic), you get production-ready clusters in minutes, preconfigured with best practices for security, reliability, and scaling. Azure handles node management, networking, upgrades, and dynamic autoscaling.
+- [AKS Automatic (GA)](https://azure.microsoft.com/en-us/updates?id=503235) : With [AKS Automatic](https://learn.microsoft.com/en-gb/azure/aks/intro-aks-automatic), you get production-ready clusters in minutes, preconfigured with best practices for security, reliability, and scaling. Azure handles node management, networking, upgrades, and dynamic autoscaling.
 
 - [AKS Release 2025-09-21 now available (GA)](https://github.com/Azure/AKS/releases/tag/2025-09-21) : Fairly small release, supporting the deprecation of AKS 1.31 in November and the release of AKS Automatic, alongside the usual updates.
 
