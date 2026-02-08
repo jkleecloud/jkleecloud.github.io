@@ -3,7 +3,7 @@ title = 'Azure Snippets w/c 02/02/2026'
 date = 2026-02-09T08:00:16+01:00
 draft = true
 categories = ['Azure Weekly 2026']
-tags = ['AKS', 'Azure Storage']
+tags = ['AKS', 'Azure Storage', 'IaC]
 +++
 
 Summary of Azure snippets for the week commencing 2nd February 2026, grouped by Azure service.
@@ -16,11 +16,15 @@ RET = Service retirement
 
 Azure services with highlighted updates this week:
 
-- []
+- [Azure Kubernetes Services](#azure-kubernetes-services)
+- [Azure Storage](#azure-storage)
+- [Infrastructure as Code](#infrastructure-as-code)
 
 ## Azure Kubernetes Services
 
-- [Deployment safeguards – pod security standard support in AKS (GA)](https://azure.microsoft.com/en-us/updates?id=548101) : Azure Kubernetes Service (AKS) now supports Kubernetes [Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/) within [Deployment Safeguards](https://learn.microsoft.com/en-gb/azure/aks/deployment-safeguards#pod-security-standards-error-messages), enabling centralized management of Baseline, Restricted, and Privileged standards at scale. This capability allows teams to ensure that deployment manifests comply with selected security standards, help technical practitioners strengthen workload security, reduce configuration drift, and simplify the rollout of cluster-wide security controls. 
+- [Deployment safeguards – pod security standard support in AKS (GA)](https://azure.microsoft.com/en-us/updates?id=548101) : Azure Kubernetes Service (AKS) now supports Kubernetes [Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/) within [Deployment Safeguards](https://learn.microsoft.com/en-gb/azure/aks/deployment-safeguards#pod-security-standards-error-messages), enabling centralized management of Baseline, Restricted, and Privileged standards at scale. This capability allows teams to ensure that deployment manifests comply with selected security standards, help technical practitioners strengthen workload security, reduce configuration drift, and simplify the rollout of cluster-wide security controls.
+
+- [Retina 1.0 Is Now Available (GA)](https://techcommunity.microsoft.com/blog/linuxandopensourceblog/retina-1-0-is-now-available/4489003) : Retina is an open-source, Kubernetes network observability platform. It enables you to continuously observe and measure network health, and investigate network issues on-demand with integrated Kubernetes-native workflows. (I've put this in the AKS section, but there are no Azure dependencies - Retina runs anywhere Kubernetes does and can be used across distributions.)
 
 ## Azure Storage
 
