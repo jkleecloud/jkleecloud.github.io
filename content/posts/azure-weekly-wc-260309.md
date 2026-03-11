@@ -3,7 +3,7 @@ title = 'Azure Snippets w/c 09/03/2026'
 date = 2026-03-11T21:00:16Z
 draft = false
 categories = ['Azure Weekly 2026']
-tags = ['DB for PostgreSQL', 'Azure Firewall', 'AKS', 'GOvernance']
+tags = ['DB for PostgreSQL', 'Azure Firewall', 'AKS', 'Governance']
 +++
 
 Summary of Azure snippets for the week commencing 9th March 2026, grouped by Azure service. Seems to be a slow period for Azure updates at the moment, but I've gathered a few useful-looking items for this week.
