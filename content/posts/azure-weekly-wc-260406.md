@@ -3,7 +3,7 @@ title = 'Azure Snippets w/c 06/04/2026'
 date = 2026-04-09T08:00:16+01:00
 draft = true
 categories = ['Azure Weekly 2026']
-tags = ['AKS', 'Azure SQL', 'Azure Storage', 'Compute', 'Sustainability]
+tags = ['AKS', 'Azure SQL', 'Azure Storage', 'Compute', 'Sustainability']
 +++
 
 Summary of Azure snippets for the week commencing 6th April 2026, grouped by Azure service.
@@ -26,7 +26,7 @@ Azure services with highlighted updates this week:
 
 - [Pod CIDR expansion in AKS (GA)](https://azure.microsoft.com/en-us/updates?id=557907) : When clusters exhaust available pod IP addresses, teams have historically been forced to rebuild environments to restore capacity, creating operational disruption. [Pod CIDR expansion](https://learn.microsoft.com/en-us/azure/aks/azure-cni-overlay-pod-expand) allows overlay‑based (e.g. CNI Overlay) AKS clusters to increase their pod IP range in place without cluster recreation. Very useful for large clusters, and can be used in conjunction with a move from e.g. kubenet to CNI Overlay networking.
 
-- [Blue-green agent pool upgrade (Public Preview)](https://azure.microsoft.com/en-us/updates?id=557862) : In‑place node pool upgrades can introduce risk by applying changes directly to running environments. [Blue‑green agent pool upgrades](https://learn.microsoft.com/en-us/azure/aks/blue-green-node-pool-upgrade) create a parallel node pool with the new configuration, allowing validation before workloads are shifted and providing a clear rollback path. This reduces upgrade risk and supports more controlled cluster lifecycle management. Another new feature improving the experience and resilience for upgrading node pools, following last month's [node pool version rollback](https://jkleecloud.github.io/posts/azure-weekly-wc-260309/#azure-kubernetes-services) preview release.
+- [Blue-green agent pool upgrade (Public Preview)](https://azure.microsoft.com/en-us/updates?id=557862) : In‑place node pool upgrades can introduce risk by applying changes to directly running environments. [Blue‑green agent pool upgrades](https://learn.microsoft.com/en-us/azure/aks/blue-green-node-pool-upgrade) create a parallel node pool with the new configuration, allowing validation before workloads are shifted and providing a clear rollback path. This reduces upgrade risk and supports more controlled cluster lifecycle management. Another new feature improving the experience and resilience for upgrading node pools, following last month's [node pool version rollback](https://jkleecloud.github.io/posts/azure-weekly-wc-260309/#azure-kubernetes-services) preview release.
 
 - [Microsoft Azure Kubernetes Application Network (Public Preview)](https://azure.microsoft.com/en-us/updates?id=557922) : [Azure Kubernetes Application Network](https://learn.microsoft.com/en-us/azure/application-network/overview) introduces application‑layer abstractions for Kubernetes traffic, including mutual TLS for pod‑to‑pod communication, application‑aware authorization policies, and detailed traffic telemetry across ingress and in‑cluster communication, with built‑in multi‑region connectivity configured in a single step. This enables teams to apply identity‑aware security and gain deeper traffic insight without deploying or operating a full service mesh, reducing operational overhead while improving consistency and auditability. Based on Istio's [ambient mode](https://istio.io/latest/docs/ambient/overview/), which implements mesh functionality without requiring a sidecar running a proxy in every application pod. Currently supports [very limited regions](https://learn.microsoft.com/en-us/azure/application-network/overview#limitations) (none in the UK) and doesn't support private clusters.
 
@@ -40,7 +40,8 @@ Azure services with highlighted updates this week:
 
 ## Azure SQL
 
-- [SQL MCP Server (Public Preview)](https://azure.microsoft.com/en-us/updates?id=558150) : [SQL MCP Server](https://learn.microsoft.com/en-us/sql/mcp/) is a feature rich component of Data API Builder (DAB) that gives you a simple, predictable, secure way to bring AI agents into your data workflows without compromising the database or relying on natural language. SQL MCP Server runs locally, on premises, or in any cloud as a containerized service.
+- [SQL MCP Server (Public Preview)](https://azure.microsoft.com/en-us/updates?id=558150) : [SQL MCP Server](https://learn.microsoft.com/en-us/sql/mcp/) is a feature rich component of
+Data API Builder (DAB) that gives you a simple, predictable, secure way to bring AI agents into your data workflows without compromising the database or relying on natural language. SQL MCP Server runs locally, on premises, or in any cloud as a containerized service.
 
 - [GitHub Copilot in SQL Server Management Studio 22 (GA)](https://azure.microsoft.com/en-us/updates?id=558134) : With [GitHub Copilot in SSMS](https://learn.microsoft.com/en-us/ssms/github-copilot/overview), you can use natural language to develop, explain, fix, and optimize T‑SQL, troubleshoot queries, and better understand your databases without leaving your workflow. GitHub Copilot includes intelligent code completions in the query editor, helping you write T-SQL faster and with greater confidence. In addition, you can use database instructions to explain business rules and conventions that Copilot should follow, helping it to provide more precise, relevant assistance. By using the same GitHub Copilot subscription already available in Visual Studio and Visual Studio Code, you get a consistent AI experience across your daily tools — now extended to SQL databases.
 
@@ -54,7 +55,4 @@ Azure services with highlighted updates this week:
 
 ## Sustainability
 
-- [Emissions Impact Dashboard for Azure (RET)](https://azure.microsoft.com/en-us/updates?id=558278) : Effective March 31, 2027, the Emissions Impact Dashboard for Azure hosted by Power BI will be retired. After this date, the dashboard will no longer be accessible and technical support will be discontinued. Customers can explore [Azure Carbon Optimizer](https://learn.microsoft.com/en-us/azure/carbon-optimization/) in advance of the retirement date as an alternative solution. Get your dashboard data exported ifyou need it for historical reporting!
-
-
-
+- [Emissions Impact Dashboard for Azure (RET)](https://azure.microsoft.com/en-us/updates?id=558278) : Effective March 31, 2027, the Emissions Impact Dashboard for Azure hosted by Power BI will be retired. After this date, the dashboard will no longer be accessible and technical support will be discontinued. Customers can explore [Azure Carbon Optimizer](https://learn.microsoft.com/en-us/azure/carbon-optimization/) in advance of the retirement date as an alternative solution. Get your dashboard data exported if you need it for historical reporting!
