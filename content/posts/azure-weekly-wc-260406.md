@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 06/04/2026'
 date = 2026-04-09T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2026']
 tags = ['AKS', 'Azure SQL', 'Azure Storage', 'Compute', 'Sustainability']
 +++
