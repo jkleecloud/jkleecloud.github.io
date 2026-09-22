@@ -1,9 +1,9 @@
 +++
 title = 'Azure Snippets w/c 21/09/2026'
 date = 2026-09-22T08:00:16+01:00
-draft = true
+draft = false
 categories = ['Azure Weekly 2026']
-tags = ['Azure Functions', 'AKS', 'AI', 'Foundry', 'Virtual Networks']
+tags = ['Azure Functions', 'AKS', 'AI', 'Foundry', 'Virtual Networks', 'Compute']
 +++
 
 Summary of Azure snippets for the week commencing 21st September 2026, grouped by Azure service.
@@ -20,12 +20,13 @@ Azure services with highlighted updates this week:
 
 - [Azure Functions](#azure-functions)
 - [Azure Kubernetes Services](#azure-kubernetes-services)
+- [Compute](#compute)
 - [Microsoft Foundry / AI](#microsoft-foundry--ai)
 - [Virtual Networks](#virtual-networks)
 
 ## Azure Functions
 
-- [TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption (GA)](https://azure.microsoft.com/en-us/updates?id=570940) : Azure Functions Flex Consumption support for TLS/SSL certificates is now generally available through a new site-scoped certificate model. Each function app can hold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly, imported from Azure Key Vault, or issued as free App Service Managed Certificates to enable custom domains, client-certificate authentication, and mutual TLS scenarios on Flex Consumption. End-to-end TLS encryption is also generally available for Flex Consumption and allows traffic encryption between the platform front ends and the workers that run your functions. Removes a definite impediment to using Flex Consumption plans!
+- [TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption (GA)](https://azure.microsoft.com/en-us/updates?id=570940) : Azure Functions Flex Consumption support for TLS/SSL certificates is now generally available through a new site-scoped certificate model. Each function app can hold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly, imported from Azure Key Vault, or issued as free App Service Managed Certificates to enable custom domains, client-certificate authentication, and mutual TLS scenarios on Flex Consumption. End-to-end TLS encryption is also generally available for Flex Consumption and allows traffic encryption between the platform front ends and the workers that run your functions. Removes a previous impediment to using Flex Consumption plans!
 
 ## Azure Kubernetes Services
 
@@ -38,6 +39,10 @@ Azure services with highlighted updates this week:
 - [Control plane metrics collection for AKS with Managed Prometheus (GA)](https://azure.microsoft.com/en-us/updates?id=568830) : This capability gives AKS customers [native observability](https://learn.microsoft.com/en-gb/azure/aks/control-plane-metrics-monitor) into key managed control plane components, including the API server, etcd, kube-scheduler, kube-controller-manager, cluster autoscaler, and node auto-provisioning. Only works with Managed Prometheus at present, and there are some other limitations to check.
 
 - [Prepared Image Specification (Public Preview)](https://azure.microsoft.com/en-us/updates?id=567949) : With AKS [Prepared Image Specification](https://learn.microsoft.com/en-gb/azure/aks/prepared-image-specification-overview), customers can create preconfigured node images that include required container images and customizations ahead of time, enabling new nodes to start in a ready-to-run state. This helps workloads achieve faster and more predictable scaling, reduce application startup latency, and improve operational efficiency during growth and burst traffic events. Another performance boost for AKS workloads alongside artifact streaming.
+
+## Compute
+
+- [Per-disk resiliency for Azure VMs (Public Preview)](https://azure.microsoft.com/en-us/updates?id=569711) : [Per-disk resiliency](https://learn.microsoft.com/en-gb/azure/virtual-machines/disks-per-disk-resiliency) provides another option for applications that can tolerate the temporary loss of an individual data disk. When enabled, Azure detaches and takes only the affected disk offline while the VM and its remaining disks continue running. Once disk connectivity is restored, Azure automatically attaches and brings the disk back online. Examples of use: Production VMs with backup or auxiliary disks, so a secondary disk issue does not interrupt the primary workload; clustered and shared-disk applications with their own high-availability or failover logic; containerized workloads with per-pod disks, so one persistent volume can recover without disrupting other pods on the node. This last potential use case is interesting for containerised apps. Preview is in limited regions, but unusually they include both UK South and UK West!
 
 ## Microsoft Foundry / AI
 
