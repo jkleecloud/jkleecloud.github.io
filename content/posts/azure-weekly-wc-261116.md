@@ -1,7 +1,7 @@
 +++
 title = 'Azure Snippets w/c 16/11/2026'
 date = 2026-11-17T08:00:16Z
-draft = true
+draft = false
 categories = ['Azure Weekly 2026']
 tags = ['DB for PostgreSQL', 'AI', 'Foundry', 'Azure Backup', 'AKS', 'Azure Monitor', 'Azure SQL', 'Front Door', 'Virtual Networks']
 +++
